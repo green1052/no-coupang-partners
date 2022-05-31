@@ -1,2 +1,2 @@
-! 지금 쓰면 안될듯 아마
 ! ##a[href*="coupa.ng/"]
+! ##a[href*="link.coupang.com/a/"]

@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - "build.bash"
+      - "build.js"
       - "hosts.txt"
 
 jobs:

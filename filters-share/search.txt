@@ -1,14 +1,2 @@
-google.*#?#div[role="main"] div#search div[data-async-context] div[data-hveid]:-abp-contains(/eggrank.com
-reviewpro.co.kr
-proguide.co.kr
-googlewph.com
-whoareyoubro.com
-whitepen.co.kr
-contentsfree.com/)
-duckduckgo.com#?#div.result:-abp-contains(/eggrank.com
-reviewpro.co.kr
-proguide.co.kr
-googlewph.com
-whoareyoubro.com
-whitepen.co.kr
-contentsfree.com/)
+google.*#?#div[role="main"] div#search div[data-async-context] div[data-hveid]:-abp-contains(/eggrank.com|reviewpro.co.kr|proguide.co.kr|googlewph.com|whoareyoubro.com|whitepen.co.kr|contentsfree.com|applechart.kr/)
+duckduckgo.com#?#div.result:-abp-contains(/eggrank.com|reviewpro.co.kr|proguide.co.kr|googlewph.com|whoareyoubro.com|whitepen.co.kr|contentsfree.com|applechart.kr/)

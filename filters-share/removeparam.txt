@@ -1,0 +1,5 @@
+||link.coupang.com^$removeparam=lptag
+||link.coupang.com^$removeparam=subid
+||link.coupang.com^$removeparam=itemId
+||link.coupang.com^$removeparam=vendorItemId
+||link.coupang.com^$removeparam=traceid

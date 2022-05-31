@@ -1,0 +1,36 @@
+name: Build rules
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "build.bash"
+      - "hosts.txt"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.repository == "green1052/no-coupang-partners" && github.event.head_commit.author.email != "action@github.com"
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Build
+        run: bash build.bash
+
+      - name: Commit
+        run: |
+          git add filter-share/search.txt
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Build rules" -a
+      - name: Push to protected branch
+        uses: CasperWA/push-protected@v2
+        with:
+          token: ${{ secrets.PUSH_TO_PROTECTED_BRANCH }}
+          branch: master
+          unprotect_reviews: true

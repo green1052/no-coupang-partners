@@ -3,7 +3,7 @@ const {EOL} = require("os");
 
 const REGEX = fs.readFileSync("./hosts.txt", "utf8")
     .split(EOL)
-    .filter(host => host !== "")
+    .filter(host => host !== "" && !host.startsWith("#"))
     .join("|")
     .replaceAll(".", "\\.");
 

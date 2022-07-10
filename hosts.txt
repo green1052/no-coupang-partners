@@ -1,3 +1,6 @@
+# URL 단축기
+play.it-trip.com
+
 eggrank.com
 reviewpro.co.kr
 proguide.co.kr
@@ -37,3 +40,8 @@ shopzone.co.kr
 doeun.tistory.com
 couprod.com
 naver-me.com
+unknowndetails.com
+review1004.com
+yoonpro0001.tistory.com
+reviewkor.com
+slampanic.co.kr

@@ -1,10 +1,11 @@
 # no-coupang-partners
 
-쿠팡 파트너스와 관련된 것을 차단합니다.
+쿠팡 파트너스 링크만 있는 사이트를 숨깁니다.
 
 ## 기능
 
-1. [Google](https://google.com)과 [DuckDuckGo](https://duckduckgo.com/)에 검색 결과에 쿠팡 파트너스 사이트를 숨깁니다.
+1. 검색 결과에 보이는 쿠팡 파트너스 링크만 있는 사이트를 숨깁니다. 대상: [Google](https://google.com) [DuckDuckGo](https://duckduckgo.com/)
+
 
 2. 쿠팡 파트너스 추적 링크를 제거합니다.
 

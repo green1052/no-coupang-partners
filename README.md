@@ -4,10 +4,24 @@
 
 ## 기능
 
-1. 검색 결과에 보이는 쿠팡 파트너스 링크만 있는 사이트를 숨깁니다. 대상: [Google](https://google.com) [DuckDuckGo](https://duckduckgo.com/)
+1. 검색 결과에 보이는 쿠팡 파트너스 링크만 있는 사이트를 숨깁니다. 지원 대상: [Google](https://google.com), [DuckDuckGo](https://duckduckgo.com/)
 
 
 2. 쿠팡 파트너스 추적 링크를 제거합니다.
+
+## 적용 사진
+
+<details>
+<summary>눌러서 보기</summary>
+
+사용 전:
+
+![before](before.png)
+
+사용 후:
+
+![after](after.png)
+</details>
 
 ## 설치
 

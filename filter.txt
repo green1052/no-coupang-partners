@@ -1,6 +1,6 @@
 ! Title: no-coupang-partners
 ! Description: 쿠팡 파트너스 링크만 있는 사이트를 숨깁니다.
-! Version: 2022.711.0
+! Version: 2022.711.1
 ! Expires: 1 day
 ! Homepage: https://github.com/green1052/no-coupang-partners
 ! Support: https://github.com/green1052/no-coupang-partners

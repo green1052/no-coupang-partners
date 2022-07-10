@@ -4,16 +4,26 @@
 
 ## 기능
 
-물건을 검색할 때마다 나오는 쿠팡 파트너스 사이트를 숨깁니다.
+1. [Google](https://google.com)과 [DuckDuckGo](https://duckduckgo.com/)에 검색 결과에 쿠팡 파트너스 사이트를 숨깁니다.
 
-쿠팡 파트너스 추적 링크를 차단합니다.
+2. 쿠팡 파트너스 추적 링크를 제거합니다.
 
 ## 설치
 
-해당 주소를 복사해 AdGuard, uBlock Origin으로 설치
+**no-coupang-partners** ([AdGuard](https://adguard.com), [uBlock Origin](https://github.com/gorhill/uBlock))
 
 ```
 https://raw.githubusercontent.com/green1052/no-coupang-partners/master/filter.txt
+```
+
+**no-coupang-partners** (Legacy, DNS)
+
+**!주의! 해당 필터는 사이트 접속만을 차단할 수 있습니다.**
+
+!#include 문법 미지원 광고 차단기와 DNS 필터링만을 위한 필터
+
+```
+https://raw.githubusercontent.com/green1052/no-coupang-partners/master/hosts.txt
 ```
 
 # Special Thanks

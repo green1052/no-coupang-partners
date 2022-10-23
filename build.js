@@ -7,5 +7,5 @@ const REGEX = fs.readFileSync("./hosts.txt", "utf8")
     .join("|")
     .replaceAll(".", "\\.");
 
-fs.writeFileSync(`filters-share/search.txt`, `google.*#?#div[role="main"] div#search div[data-async-context] div[data-hveid]:-abp-contains(/${REGEX}/)
-duckduckgo.com#?#div.result:-abp-contains(/${REGEX}/)`, "utf8");
+fs.writeFileSync(`filters-share/search.txt`, `google.*#?#div[role="main"] div#search div[data-async-context] div.g[data-hveid]:-abp-contains(/${REGEX}/)
+duckduckgo.com#?#div.results article:-abp-contains(/${REGEX}/)`, "utf8");

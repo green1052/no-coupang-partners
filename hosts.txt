@@ -1,6 +1,3 @@
-# URL 단축기
-play.it-trip.com
-
 eggrank.com
 reviewpro.co.kr
 proguide.co.kr
@@ -26,8 +23,6 @@ ppparenting.com
 reviewdamda.com
 hotdealshop.co.kr
 picktip.co.kr
-godsungb.kr
-알뜰정보.com
 reviewguru.co.kr
 bamtrae.co.kr
 rocketstore.co.kr
@@ -72,3 +67,4 @@ u-kiss.co.kr
 cs.taphoamini.com
 qoowoona.com
 ydailynewsis.blogspot.com
+oasisfeed.com

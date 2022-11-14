@@ -8,7 +8,6 @@
 
 1. 검색 결과에 보이는 쿠팡 파트너스 링크만 있는 사이트를 숨깁니다. 지원 대상: [Google](https://google.com), [DuckDuckGo](https://duckduckgo.com/)
 
-
 2. 쿠팡 파트너스 추적 링크를 제거합니다.
 
 ## 적용 사진

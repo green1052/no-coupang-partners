@@ -23,6 +23,6 @@ jobs:
         run: node build.js
 
       - name: Push
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v10
         with:
           add: "filters-share/search.txt"
